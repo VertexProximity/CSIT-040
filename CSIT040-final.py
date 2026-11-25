@@ -120,6 +120,7 @@ def view_task(tasks):
 
    for i, task in enumerate(sorted_tasks, 1):
       print(i, task["name"], "-", task["course"], "-", task["deadline"], "-", task["priority"])
+   print("")
 
 def complete_task(tasks):
    name = input("Enter task name: ")
